@@ -46,7 +46,6 @@ body {
   background-image: url("img/icon-phone-header.svg");
 }
 
-
 .hero-image {
   margin-bottom: 620px;
 }
@@ -173,12 +172,11 @@ body {
 .page-footer {
   padding: 40px 0;
   background-color: #00417d;
-  color: #ffffff;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
