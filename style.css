@@ -177,6 +177,10 @@ body {
   color: #ffffff;
 }
 
+.button:not(:last-child) {
+  margin-bottom: 70px;
+}
+
 .page-footer {
   padding: 40px 0;
   background-color: #00417d;
