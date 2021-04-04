@@ -36,10 +36,17 @@ body {
   background-position: left;
 }
 
+.header-github {
+  padding-left: 30px;
+  background-image: url("img/icon-git-header.svg");
+  background-size: contain;
+}
+
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
 }
+
 
 .header-phone {
   padding-left: 25px;
@@ -122,6 +129,7 @@ body {
   background-image: url("img/icon-html.svg");
 }
 
+
 .skill-css {
   background-image: url("img/icon-css.svg");
 }
@@ -180,6 +188,14 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+
+  transition: all 0.3s ease;
+  opacity: 1;
+
+}
+
+.button:hover {
+  opacity: 0.85;
 }
 
 .button:not(:last-child) {
